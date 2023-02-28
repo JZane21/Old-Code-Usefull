@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Geometrica</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Media Geometrica
+        </h1>
+    </header>
+    <section>
+        <h2>
+            Aqui podras calcular la media geometrica de una lista de numeros
+        </h2>
+        <form>
+            <label for="InputValor" type="number">
+                Escriba el numero de elementos que desea agregar:
+            </label>
+            <input id="InputValor" type="number"/>
+            <button type="button" onclick="numeroElementos()">
+                Establecer Limite
+            </button>
+            <p></p>
+            <label for="InputElemento" type="number">
+                Escriba el elemento que desea agregar:
+            </label>
+            <input id="InputElemento" type="number"/>
+            <button type="button" onclick="agregarElemento()">
+                Agregar Elemento
+            </button>
+            <p id="textoAnuncio"></p>
+        </form>
+    </section>
+    <script src="./Geometrica.js"></script>
+</body>
+</html>
